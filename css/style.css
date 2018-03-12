@@ -185,3 +185,107 @@ video {
 	color: white;
 
 }
+
+
+
+
+
+
+
+
+
+/* -------------- famous cinematographers ---------------------- */
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+#famous {
+  width: 100%;
+  padding: 30px 0 150px;
+  background-color: #D02A20;
+  float: left;
+}
+
+#famous h1 {
+	text-align: center;
+	color: #FFFFFF;
+}
+
+#famous img {
+	width: 100%;
+}
+
+#famous p {
+	font-size: 1em;
+	color: white;
+}
+
+.red {
+  width: 300px;
+  height: 260px;
+  background: #000000;
+}
+
+.boxgrid h3 {
+	padding-top: 20px;
+  margin: 10px 10px 0 10px;
+  color: #fff;
+  font: 'PT Serif', serif;
+	font-size: 1.5em;
+  letter-spacing: -1px;
+  font-weight: 300;
+	color: #000000;
+}
+
+
+.coverboxcaption h3 {
+	padding-top: -15px;
+}
+
+.boxgrid {
+  width: 300px;
+  height: 260px;
+  float: left;
+  background: #000000;
+  overflow: hidden;
+  position: relative;
+}
+
+.boxgrid img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 0;
+}
+
+.boxgrid p {
+  padding: 0 10px;
+  color: red;
+  font-weight: bold;
+  font: 10pt "Teko", sans-serif;
+}
+
+.boxcaption {
+  float: left;
+  position: absolute;
+  background: #FFFFFF;
+  height: 100px;
+  width: 100%;
+  opacity: .9;
+}
+
+.boxgrid a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.captionfull .boxcaption {
+  top: 260px;
+  left: 0;
+}
+
+.row {
+  float: left;
+  margin-top: 20px;
+}
