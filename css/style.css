@@ -125,6 +125,13 @@ video {
 }
 
 
+.intro-content p {
+	font-size: 1em;
+	width: 800px;
+	margin-left: -130px;
+	display: flex; justify-content: center;
+}
+
 
 
 /* About Us */
