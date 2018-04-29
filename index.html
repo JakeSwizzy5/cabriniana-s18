@@ -13,11 +13,302 @@
 <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
 <script src="https://use.fontawesome.com/3e012632f5.js"></script>
 
+<style type="text/css">
+img {
+		width:100%;
+	}
 
+/* Header */
+header{
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 500;
+	box-shadow: 0 2px 10px #262626;
+	padding: 18px 0 8px 0;
+	background: #575B2D;
+}
+
+
+nav{
+	margin-top: 10px;
+	float: right;
+}
+nav ul {
+	list-style-type: none;
+	text-align: right;
+
+}
+
+
+
+
+
+nav li {
+	font-family: 'PT Serif', serif;
+	font-weight: 900;
+	font-size: .7em;
+	letter-spacing: .1em;
+	text-transform: uppercase;
+	display: inline-block;
+	padding-left: 10px;
+	cursor: pointer;
+}
+nav li a:link {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+nav li a:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+
+nav li a:hover {
+	color: #C99F50;
+	text-decoration: none;
+}
+
+
+nav li a:active {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+/* Hero Video */
+
+.hero-video {
+	width: 100%;
+	max-height: 580px;
+	overflow: hidden;
+	float: left;
+	text-align:center
+}
+
+video {
+	min-height: 580px;
+}
+
+.image-overlay {
+	position: absolute;
+	top: 136px;
+	height: 550px;
+	width: 940px;
+	z-index: 100;
+	background-position: bottom;
+	overflow: visible;
+}
+
+.image-overlay h1 {
+	font-weight: 100;
+	line-height: 1.2;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 140px;
+}
+/* Introduction  */
+
+.introduction {
+	padding: 100px 0 10px 0px;
+	float: left;
+	width: 100%;
+	background: #FFFAE6;
+	background-size: 100%;
+	height: 100%;
+
+
+
+}
+
+.introduction h2 {
+	font-family: 'PT Serif', serif;
+}
+
+
+
+
+
+.intro-content h3 {
+	margin-top: 10px;
+	font-family: 'PT Serif', serif;
+	color: #eee;
+}
+
+
+.intro-content p {
+	font-family: 'PT Serif', serif;
+	font-size: 1.5em;
+	width: 800px;
+	margin-left: -130px;
+	display: flex; justify-content: center;
+}
+
+
+
+/* About Us */
+
+
+
+.about {
+	width:100%;
+	padding:100px 0;
+	background-color: #C99F50;
+	float: left;
+	padding-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+
+.drk-otl-btn {
+	padding-top: 40px;
+	margin: 10px, 0, ;
+	font-family: 'PT Serif', serif;
+	display: flex; justify-content: center;
+}
+
+.drk-otl-btn a:link {
+	color: white;
+	display: inline-block;
+	width: 200px;
+	padding: 6px;
+	background-color: #D02A20;
+	text-align: center;
+	font-weight: 300;
+	font-size: 1em;
+	line-height: 36px;
+	border-radius: 30px;
+	cursor: pointer;
+	margin: 70px 170px;
+	font-family: 'PT Serif', serif;
+	color: white;
+}
+
+.drk-otl-btn a:visited {
+	color:white;
+
+}
+
+.drk-otl-btn a:hover {
+	background-color: black;
+	color: white;
+}
+
+.drk-otl-btn a:active {
+	color: white;
+
+}
+
+
+
+
+
+
+
+
+
+/* -------------- famous cinematographers ---------------------- */
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+#famous {
+  width: 100%;
+  padding: 30px 0 150px;
+  background-color: #D02A20;
+  float: left;
+}
+
+#famous h1 {
+	text-align: center;
+	color: #FFFFFF;
+}
+
+#famous img {
+	width: 100%;
+}
+
+#famous p {
+	font-size: 1em;
+	color: white;
+}
+
+.red {
+  width: 300px;
+  height: 260px;
+  background: #000000;
+}
+
+.boxgrid h3 {
+	padding-top: 20px;
+  margin: 10px 10px 0 10px;
+  color: #fff;
+  font: 'PT Serif', serif;
+	font-size: 1.5em;
+  letter-spacing: -1px;
+  font-weight: 300;
+	color: #000000;
+}
+
+.boxgrid {
+  width: 300px;
+  height: 260px;
+  float: left;
+  background: #000000;
+  overflow: hidden;
+  position: relative;
+}
+
+.boxgrid img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 0;
+}
+
+.boxgrid p {
+  padding: 0 10px;
+  color: red;
+  font-weight: bold;
+  font: 10pt "Teko", sans-serif;
+}
+
+.boxcaption {
+  float: left;
+  position: absolute;
+  background: #FFFFFF;
+  height: 100px;
+  width: 100%;
+  opacity: .7;
+}
+
+
+.boxgrid a {
+  color: black;
+  text-decoration: none;
+}
+
+.captionfull .boxcaption {
+  top: 260px;
+  left: 0;
+}
+
+.row {
+  float: left;
+  margin-top: 20px;
+}
+
+</style>
 
  <!-- internal stylesheet -->
-<style>
-</style>
+
 
 </head>
 
@@ -31,7 +322,7 @@
 <div class="image-overlay">
 </div>
 </div>
-<img src="images/cabrinianaheader.jpg" alt="headerimage">
+<img src="http://cdm17305.contentdm.oclc.org/customizations/global//pages/cabrinianaheader.jpg" alt="headerimage">
 	<!-- end container -->
 </div> <!-- end hero-video -->
 </section>
@@ -77,7 +368,7 @@ Hours: Monday through Friday,<br><br>
     <div class="row">
       <div class="columns_3">
         <div class="boxgrid captionfull">
-          <img src="images/youngcabrini.jpg"/>
+          <img src="http://cdm17305.contentdm.oclc.org/customizations/global//pages/youngcabrini.jpg"/>
           <div class="cover boxcaption">
             <h3><a href="https://cdm17305.contentdm.oclc.org/digital/collection/p17305coll4/search/order/title/ad/asc">Early Life</a></h3>
           </div>
@@ -86,7 +377,7 @@ Hours: Monday through Friday,<br><br>
 
       <div class="columns_3">
         <div class="boxgrid captionfull">
-          <img src="images/cross.jpg"/>
+          <img src="http://cdm17305.contentdm.oclc.org/customizations/global//pages/cross.jpg"/>
           <div class="cover boxcaption">
             <h3><a href="https://cdm17305.contentdm.oclc.org/digital/collection/p17305coll1/search/order/title/ad/asc">Personal Effects</a></h3>
 
@@ -96,7 +387,7 @@ Hours: Monday through Friday,<br><br>
 
       <div class="columns_3">
         <div class="boxgrid captionfull">
-          <img src="images/SteamshipCirca1900.jpg"/>
+          <img src="http://cdm17305.contentdm.oclc.org/customizations/global//pages/SteamshipCirca1900.jpg"/>
           <div class="cover boxcaption">
             <h3><a href="https://cdm17305.contentdm.oclc.org/digital/collection/p17305coll5/search/order/title/ad/asc">Travels</a></h3>
 
@@ -110,7 +401,7 @@ Hours: Monday through Friday,<br><br>
      <div class="row">
       <div class="columns_3">
         <div class="boxgrid captionfull">
-          <img src="images/SaintJoachimsChurch.jpg"/>
+          <img src="http://cdm17305.contentdm.oclc.org/customizations/global//pages/SaintJoachimsChurch.jpg"/>
           <div class="cover boxcaption">
             <h3><a href="https://cdm17305.contentdm.oclc.org/digital/collection/p17305coll3/search/order/title/ad/asc">Missions</a></h3>
 
@@ -121,7 +412,7 @@ Hours: Monday through Friday,<br><br>
 
        <div class="columns_3">
         <div class="boxgrid captionfull">
-          <img src="images/popeleoxiii.jpg"/>
+          <img src="http://cdm17305.contentdm.oclc.org/customizations/global//pages/popeleoxiii.jpg"/>
           <div class="cover boxcaption">
             <h3><a href="https://cdm17305.contentdm.oclc.org/digital/collection/p17305coll6/search/order/title/ad/asc">Popes and Prelates</a></h3>
 
@@ -132,7 +423,7 @@ Hours: Monday through Friday,<br><br>
 
        <div class="columns_3">
         <div class="boxgrid captionfull">
-          <img src="images/mothercabrini.jpg"/>
+          <img src="http://cdm17305.contentdm.oclc.org/customizations/global//pages/mothercabrini.jpg"/>
           <div class="cover boxcaption">
             <h3><a href="https://cdm17305.contentdm.oclc.org/digital/collection/p17305coll11/search/order/title/ad/asc">Photographs</a></h3>
 
@@ -145,7 +436,7 @@ Hours: Monday through Friday,<br><br>
 		<div class="row">
 		 <div class="columns_3">
 			 <div class="boxgrid captionfull">
-				 <img src="images/beatification.jpg"/>
+				 <img src="http://cdm17305.contentdm.oclc.org/customizations/global//pages/beatification.jpg"/>
 				 <div class="cover boxcaption">
 					 <h3><a href="https://cdm17305.contentdm.oclc.org/digital/search/collection/p17305coll7!p17305coll8!p17305coll9/order/title/ad/asc">Beatification and Canonization</a></h3>
 
@@ -156,7 +447,7 @@ Hours: Monday through Friday,<br><br>
 
 		 <div class="columns_3">
 			<div class="boxgrid captionfull">
-				<img src="images/relics.jpg"/>
+				<img src="http://cdm17305.contentdm.oclc.org/customizations/global//pages/relics.jpg"/>
 				<div class="cover boxcaption">
 					<h3><a href="https://cdm17305.contentdm.oclc.org/digital/collection/p17305coll2/search/order/title/ad/asc">Relics</a></h3>
 
@@ -167,7 +458,7 @@ Hours: Monday through Friday,<br><br>
 
 			<div class="columns_3">
 			 <div class="boxgrid captionfull">
-				 <img src="images/default.jpg"/>
+				 <img src="http://cdm17305.contentdm.oclc.org/customizations/global//pages/default.jpg"/>
 				 <div class="cover boxcaption">
 					 <h3><a href="https://cdm17305.contentdm.oclc.org/digital/collection/p17305coll10/search/order/title/ad/asc">Letters</a></h3>
 
@@ -179,7 +470,7 @@ Hours: Monday through Friday,<br><br>
 
 </section>
 
-<script src="js/jquery.min.js"></script>
+
 
 <!-- rollover -->
 <script>
